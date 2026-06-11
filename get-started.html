@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get-started</title>
+    <link rel="stylesheet" href="get-started.css">
+    <script src="function.js" defer></script>
+    <script src="https://kit.fontawesome.com/241f3a0b37.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h3 class="logo"><i class="fa-solid fa-house-lock"></i>DAVE-TECH</h3>
+            <nav>
+                <ul>
+                    <li><a class="nav-item nav1 " href="index.html"> Home</a></li>
+                    <li><a class="nav-item nav2" href="index.html#faq-section"> Faq</a></li>
+                    <li><a class="nav-item nav3 " href="index.html#contact-section"> contact</a></li>
+                    <li><a class="nav-item nav2" href="about.html"> About</a></li>
+
+                </ul>
+            </nav>
+            <a href="get-started.html"><button class="header-btn button active animate">Get Started<i
+                        class="fa-solid fa-arrow-right-long fa-beat"></i></button>
+            </a>
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+        <section class="hero-container animate">
+            <div class="hero-content">
+
+                <h4>
+                    <p class="hero-heading animate">Let’s Secure Your Space <br>
+                </h4>
+
+                <div class="line animate">
+                    Whether you need.....
+                    <span class="rotating-word fade-in" id="door-word">Israeli door</span><br>
+                    Dave-Tech is ready to deliver reliable solutions tailored to your needs
+                </div>
+                <div class="contact-form-hero animate">
+                    <div class="form-header">
+                        <h2><strong> Request a Service Today</strong></h1>
+                    </div>
+                    <form action="https://formspree.io/f/xlgvpznz" method="post" target="_blank">
+                        <div class="form-boys1-hero">
+                            <label for="name">Full Name:</label>
+                            <input type="text" name="name" placeholder="john doe" required title="Enter your full name">
+                        </div>
+                        <div class="form-boys2-hero">
+                            <label for="number">Telephone:</label>
+                            <input type="number" name="number" placeholder="phone number +234" required
+                                title="Enter your phone number">
+                        </div>
+                        
+                        <div class="form-boys3-hero">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" placeholder="yourname@gmail.com" title="enter your mail">
+                        </div>
+                         <div class="form-boys4-hero">
+                            <label for="names">Property/Company Name:</label>
+                            <input type="names" name="names" placeholder="property/company name" required
+                                title="Enter the name">
+                        </div>
+                        <div class="form-boys5-hero">
+                            <label for="service">Service:</label>
+                            <select required title="select a service" name="service">
+                                <option value="">Select service*</option>
+                                <option value="door installation">Door installation</option>
+                                <option value="smart locks">Smart locks</option>
+                                <option value="security doors">Security doors</option>
+                                <option value="Repairs and maintenance">Repairs/Maintenance</option>
+                                <option value="Door purchase">Door Purchase</option>
+                            </select>
+                        </div>
+                           <div class="form-boys5-hero">
+                            <label for="property unit count">Property Unit Count:</label>
+                            <select required title="property unit count" name="property unit count">
+                                <option value="">property unit count*</option>
+                                <option value="less than 5 unit">Less than 5 unit</option>
+                                <option value="lass than 10 unit">Less than 10 unit</option>
+                                <option value="less than 20 unit">Less than 20 unit</option>
+                                <option value="less than 50 unit">Less than 50 unit</option>
+                                <option value="greater than 50 unit">Greater than 50 unit</option>
+                            </select>
+                        </div>
+                        <div class="form-boys5-hero">
+                            <textarea name="message" id="" placeholder="send a message"
+                                title="leave us a message"></textarea>
+                        </div>
+                     
+                        <div class="final-btn-hero">
+                            <div class="reset-hero">
+                                <button type="reset"><strong>Reset</strong> </button>
+                            </div>
+                            <div class="submit-hero">
+                                <button type="submit"><strong>Request Service</strong></button>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </form>
+                </div>
+
+
+            </div>
+
+            <!-- sliding hero images -->
+            <div class="slider-wrapper animate">
+                <div class="slider-track" id="track">
+
+                    <div class="slide">
+                        <img src="images/ashley-harris-EemPcMwKjuM-unsplash.jpg" alt="Israeli Door" />
+                        <div class="slide-label">Israeli Door</div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/frames-for-your-heart-2d4lAQAlbDA-unsplash.jpg" alt="Turkish Door" />
+                        <div class="slide-label">Turkish Door</div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/elite-prop-hmlP-v0vJ5o-unsplash.jpg" alt="Sliding Door" />
+                        <div class="slide-label">Sliding Door</div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/maria-ziegler-1AmEImwtnFk-unsplash (1).jpg" alt="Double Door" />
+                        <div class="slide-label">Double Door</div>
+                    </div>
+
+                </div>
+
+                <button class="arrow left animate" id="prevBtn">&#8249;</button>
+                <button class="arrow right animate" id="nextBtn">&#8250;</button>
+            </div>
+
+            <div class="dots animate" id="dots"></div>
+
+        </section>
+
+
+
+
+
+
+
+        <section class="final-section-container animate" id="contact-section">
+            <div class="dave-tech animate">
+                <div>
+                    <h1 class=""><i class="fa-solid fa-house-lock"></i>DAVE-TECH</h1>
+                </div>
+                <div>
+                    <p>
+                    <h2>Security Door Solutions</h2>
+                    </p>
+                </div>
+                <p>
+                <h4>professionalism is Key</h4>
+                </p>
+                <div class="socials animate">
+                    <a class="social1" href="mailto:akinyomid1@gmail.com" target="_blank"><i
+                            class="fa-solid fa-envelope"></i></a>
+                    <a class="social2" href="https://wa.me/2347033797079" target="_blank"><i
+                            class="fa-brands fa-whatsapp"></i></a>
+                    <a class="social3" href="tel:+2348152837992" target="_blank"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+
+            <div class="company animate">
+                <div>
+                    <h1>Company</h1>
+                </div>
+                <a href="">
+                    <div class="company-boys">About us</div>
+                </a>
+                <a href="">
+                    <div class="company-boys">FAQ</div>
+                </a>
+                <a href="">
+                    <div class="company-boys">Partner with us</div>
+                </a>
+                <a href="">
+                    <div class="company-boys">Contact us</div>
+                </a>
+            </div>
+
+            <div class="contact animate">
+                <div>
+                    <h1>Contact</h1>
+                </div>
+                <div class="contact-boys"><i class="fa-solid fa-envelope"></i> akinyomid1@gmail.com</div>
+                <div class="contact-boys"><i class="fa-brands fa-whatsapp"></i> +234 07033797079</div>
+                <div class="contact-boys"><i class="fa-solid fa-phone"></i> +234 08152837992</div>
+                <div class="contact-boys"><i class="fa-solid fa-clock"></i> Monday-Saturday:24hrs</div>
+                <div class="contact-boys"><i class="fa-solid fa-location-dot"></i> Adjacent IYA-FEMI <br>Restaurant,
+                    Minna, Niger state</div>
+
+            </div>
+
+            <div class="contact-form animate">
+                <div>
+                    <h2>Send a message</h1>
+                </div>
+                <form action="https://formspree.io/f/xlgvpznz" method="post" target="_blank">
+                    <div class="form-boys1">
+                        <label for="name">Full Name:</label>
+                        <input type="text" name="name" placeholder="john doe" required title="Enter your full name">
+                    </div>
+                    <div class="form-boys2">
+                        <label for="number">Telephone:</label>
+                        <input type="number" name="number" placeholder="phone number +234" required
+                            title="Enter your phone number">
+                    </div>
+                    <div class="form-boys3">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="yourname@gmail.com" title="enter your mail">
+                    </div>
+                    <div class="form-boys4">
+                        <label for="service">Service:</label>
+                        <select required title="select a service" name="service">
+                            <option value="">Select service</option>
+                            <option value="door installation">Door installation</option>
+                            <option value="smart locks">Smart locks</option>
+                            <option value="security doors">Security doors</option>
+                            <option value="Repairs and maintenance">Repairs/Maintenance</option>
+                            <option value="Door purchase">Door Purchase</option>
+                        </select>
+                    </div>
+                    <div class="form-boys5">
+                        <textarea name="message" id="" placeholder="send a message"
+                            title="leave us a message"></textarea>
+                    </div>
+                    <div class="final-btn">
+                        <div class="reset">
+                            <button type="reset"><strong>Reset</strong> </button>
+                        </div>
+                        <div class="submit">
+                            <button><strong>Submit</strong></button>
+                        </div>
+
+                    </div>
+
+
+
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer class="animate">
+        <div class="footer1 ">
+            <div>&copy; 2026 DAVE-TECH security door solutions. All rights Reserved.</div>
+            <div>Privacy Policy</div>
+            <div>Terms of Service</div>
+            <p class="final-word">Trusted by Famiies, businesses and professionals across Nigeria.</p>
+        </div>
+
+        <div class="credit animate">
+            Designed & Developed by <strong>Victor Solomon</strong>
+            <div class="credit-link">
+                <a class="credit1" href="victorsolomon2012@gmail.com" target="_blank"><i
+                        class="fa-solid fa-envelope"></i></a>
+                <a class="credit2" href="https://wa.me/2349132489059" target="_blank"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+                <a class="credit3" href="tel:+2349132489059" target="_blank"><i class="fa-solid fa-phone"></i></a>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+
+
+
+</body>
+
+</html>

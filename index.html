@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing-page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js" defer></script>
+    <script src="https://kit.fontawesome.com/241f3a0b37.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body id="home-section">
+<header>
+  <div class="header-container">
+    <h3 class="logo"><i class="fa-solid fa-house-lock"></i>DAVE-TECH</h3>
+    <nav>
+      <ul id="nav-menu">
+        <li><a class="nav-item nav1 active" href="#home-section"> Home</a></li>
+        <li><a class="nav-item nav2" href="#faq-section"> Faq</a></li>
+        <li><a class="nav-item nav3" href="#contact-section"> Contact</a></li>
+        <li><a class="nav-item nav2" href="about.html"> About</a></li>
+    
+         
+      </ul>
+    </nav>
+    <div class="nav-right">
+      <a href="get-started.html"><button class="header-btn button">Get Started<i class="fa-solid fa-arrow-right-long fa-beat"></i></button></a>
+      <button class="hamburger" id="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </div>
+</header>
+    <main>
+        <section class="hero-container animate" >
+            <div class="hero-content">
+
+                <h4>
+                    <p class="hero-heading animate">Explore durable doors and dependable lock systems made to protect
+                        every
+                        moment.</p>
+                </h4>
+
+                <div class="line animate">
+                    We specialize in the Sales, Installations & Maintenance of all types of doors.....
+                    <span class="rotating-word fade-in" id="door-word">Israeli door</span>
+                </div>
+                <ul class="hero-lists animate">
+                    <li class="items"><i class="fa-regular fa-circle-check fa-xs" style="color: #862b3b;"></i>Modern
+                        smart locks and durable doors
+                        tailored for everyday security.</li>
+                    <li class="items"> <i class="fa-regular fa-circle-check fa-xs"
+                            style="color: #862b3b;"></i>High-quality doors and trusted locking
+                        solutions for homes and businesses.</li>
+                    <li class="items"> <i class="fa-regular fa-circle-check fa-xs"
+                            style="color: #862b3b;"></i>Beautifully crafted doors with security you can rely on.</li>
+                    <li class="items"> <i class="fa-regular fa-circle-check fa-xs" style="color: #862b3b;"></i>24 Hours
+                        Emergency Service.</li>
+
+                </ul>
+                <a href="get-started.html"><button class="header-btn button hero animate hero-btn">Get Started<i
+                            class="fa-solid fa-arrow-right-long fa-beat"></i></button>
+                </a>
+            </div>
+
+            <!-- sliding hero images -->
+            <div class="slider-wrapper">
+                <div class="slider-track" id="track">
+
+                    <div class="slide">
+                        <img src="images/frames-for-your-heart-2d4lAQAlbDA-unsplash.jpg" alt="Sliding Door" />
+                        <div class="slide-label">Israeli Door</div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/ries-bosch-_H9TC_DIcOw-unsplash.jpg" alt="Turkish Door" />
+                        <div class="slide-label">Turkish Door</div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/robert-anasch-ZFYg5jTvB4A-unsplash.jpg" alt="Israeli Door" />
+                        <div class="slide-label">Sliding Door</div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/elite-prop-hmlP-v0vJ5o-unsplash.jpg" alt="Double Door" />
+                        <div class="slide-label">Double Door</div>
+                    </div>
+
+                </div>
+
+                <button class="arrow left animate" id="prevBtn">&#8249;</button>
+                <button class="arrow right animate" id="nextBtn">&#8250;</button>
+            </div>
+
+            <div class="dots animate" id="dots"></div>
+
+        </section>
+
+
+
+        <section>
+            <div class="our-services animate">
+                <h1>Our Services</h1>
+            </div>
+           <h3 class="sales animate">SALES &nbsp;|&nbsp; INSTALLATION &nbsp;|&nbsp; MAINTENANCE</h3>
+            <div class="slider2-wrapper animate">
+
+                <div class="slider2-track " id="slider2Track">
+
+                    <div class="slide2">
+                        <img src="images/james-balensiefen-9iUbAYgwlZo-unsplash.jpg" alt="Israeli Door" />
+
+                    </div>
+
+                    <div class="slide2">
+                        <img src="images/sebastian-scholz-nuki-IJkSskfEqrM-unsplash.jpg" alt="Turkish Door" />
+
+                    </div>
+
+                    <div class="slide2">
+                        <img src="images/meanwhile-in-san-diego-7klFYR9PCz0-unsplash.jpg" alt="Sliding Door" />
+
+                    </div>
+
+                    <div class="slide2">
+                        <img src="images/esphera-arqeng-SOd93WQduio-unsplash.jpg" alt="Double Door" />
+
+                    </div>
+
+                    <div class="slide2">
+                        <img src="images/jakub-zerdzicki-3ci2aJgGi1c-unsplash.jpg" alt="Security Door" />
+
+                    </div>
+
+                    <div class="slide2">
+                        <img src="images/jacob-culp-F_hQqE6uN30-unsplash.jpg" alt="Wooden Door" />
+
+                    </div>
+
+                    <div class="slide2">
+                        <img src="images/daniel-barnes-CBkjlVe-dK0-unsplash.jpg" alt="Glass Door" />
+
+                    </div>
+
+                </div>
+
+                <button class="slider2-arrow left" id="slider2Prev">&#8249;</button>
+                <button class="slider2-arrow right" id="slider2Next">&#8250;</button>
+
+                <div class="slider2-counter" id="slider2Counter">1 / 7</div>
+
+                <div class="slider2-dots animate" id="slider2Dots"></div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <section class="third-section-container animate">
+            <div class="third-section-header animate">
+                <h1>Why Choose us?</h2>
+            </div>
+
+            <div class="third-section-items">
+                <div class="third-boxed-items">
+
+                    <div class="third-item-in-box animate">
+
+                        <h2>ACCOUNTABLE</h2>
+                        <br>
+                        <h2 class="percent">100%</h2>
+
+                    </div>
+
+                </div>
+                <div class="third-boxed-items">
+
+                    <div class="third-item-in-box animate">
+                        <h2> AFFORDABLE</h2>
+                        <br>
+                        <h2 class="percent">100%</h2>
+
+                    </div>
+
+                </div>
+                <div class="third-boxed-items">
+
+                    <div class="third-item-in-box animate">
+                        <h2> RELIABLE</h2>
+                        <br>
+                        <h2 class="percent">100%</h2>
+
+
+                    </div>
+
+                </div>
+                <div class="third-boxed-items">
+
+                    <div class="third-item-in-box animate">
+                        <h2> 24 HOURS SERVICE</h2>
+                        <br>
+                        <h2 class="percent">100%</h2>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="second-section-container animate">
+            <div class="section-header animate">
+                <h2>TESTIMONIES</h2>
+            </div>
+
+            <div class="section-items">
+                <div class="boxed-items">
+
+                    <div class="item-in-box animate">
+                        <img class="testimony-images" src="images/felicia pic 2.jpg" alt="image">
+                        <br>
+                        <p>
+                            <i class="fa-solid fa-star fa-sm" style="color: rgb(255, 212, 59);"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: rgb(255, 212, 59);"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: rgb(255, 212, 59);"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: rgb(255, 212, 59);"></i>
+                            <i class="fa-solid fa-star-half" style="color: rgb(255, 212, 59);"></i>
+
+                        </p>
+                        <h3 class="animate">Felicia Monday</h3>
+                        <br>
+                        <p class="animate testimony-text">As a business owner,  Their doors and
+                            locking systems not only provided the protection we needed, but they also
+                            gave our office a more professional and modern appearance. The materials feel premium,
+                            the locks are reliable, and the service exceeded our expectations. We will definitely
+                            continue working with them for future projects
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="boxed-items">
+
+                    <div class="item-in-box animate">
+
+                        <img class="testimony-images" src="images/paasport victor.jpeg" alt="image">
+                        <br>
+                        <p>
+                            <i class="fa-solid fa-star fa-sm" style="color: rgb(255, 212, 59);"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: rgb(255, 212, 59);"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: rgb(255, 212, 59);"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: rgb(255, 212, 59);"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: rgb(255, 212, 59);"></i>
+
+                        </p>
+                        <h3 class="animate"> Solomon victor</h3>
+                        <br>
+                        <p class="animate testimony-text">From the first consultation to the final installation, the experience was
+                            excellent.
+                            The team helped us choose the perfect doors for our home and explained every
+                            option clearly. The final result was even better than
+                            we imagined. Our entrance now feels elegant, secure, and welcoming at the same
+                            time. Friends and family constantly compliment the new look
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="boxed-items">
+
+                    <div class="item-in-box animate">
+                        <img class="testimony-images" src="images/phaity.jpg" alt="image">
+                        <br>
+                        <p>
+                            <i class="fa-solid fa-star fa-sm" style="color: rgb(255, 212, 59);"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: rgb(255, 212, 59);"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: rgb(255, 212, 59);"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: rgb(255, 212, 59);"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: rgb(255, 212, 59);"></i>
+
+                        </p>
+
+                        <h3 class="animate"> Faith Abayomi</h3>
+                        <br>
+                        <p class="animate testimony-text">We recently upgraded all the doors in our home, and the difference has been
+                            incredible.
+                            The craftsmanship, durability, and modern design instantly improved both the appearance and
+                            security of our property.
+                            The installation process was smooth,
+                            and the team was professional from start to finish. We finally feel safer and more confident
+                            in our home.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="client-trust-section-container animate">
+            <div class="section-header animate">
+                <h2>Why Clients Trust Us</h2>
+            </div>
+            <div class="section-subheader animate">
+                <p>
+                    Trusted Excellence Over the Years
+                </p>
+            </div>
+            <div class="client-section-items">
+                <div class=" client-boxed-items">
+
+                    <div class="fourth-item-in-box animate">
+                        <div class="nothing">
+                            <i class="fa-solid fa-star fa-2xl" style="color: rgb(255, 212, 59);"></i>
+
+                        </div>
+
+                        <h1>4.8
+                            <br>
+                            Average Rating
+                        </h1>
+
+
+                    </div>
+
+                </div>
+                <div class="client-boxed-items">
+
+                    <div class="fourth-item-in-box animate">
+                        <div class="nothing">
+                            <i class="fa-solid fa-clipboard-check fa-2xl" style="color: rgb(255, 212, 59);"></i>
+
+                        </div>
+                        <h1 >100+
+                            <br>
+                            Jobs Completed
+                        </h1>
+
+
+
+                    </div>
+
+                </div>
+                <div class="client-boxed-items">
+
+                    <div class="fourth-item-in-box animate">
+                        <div class="nothing">
+                            <i class="fa-solid fa-user-graduate fa-2xl" style="color: rgb(255, 212, 59);"></i>
+
+                        </div>
+                        <h1>15+ years
+                            <br>
+                            of experience
+                        </h1>
+
+
+                    </div>
+
+                </div>
+                <div class="client-boxed-items">
+
+                    <div class="fourth-item-in-box animate">
+                        <div class="nothing">
+                            <i class="fa-solid fa-earth-africa fa-2xl" style="color: rgb(255, 212, 59);"></i>
+
+                        </div>
+                        <h1>25+
+                            <br>
+                            cities covered
+                        </h1>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+        <section class="fourth-section-container animate"  id="faq-section">
+
+            <section class="faq-section">
+
+                <div class="faq-header animate " >
+                    <h2>Frequently asked questions</h2>
+                    <p>Everything you need to know before getting started with us.</p>
+                </div>
+
+                <div class="faq-list animate">
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What types of doors do you sell and install?</span>
+                            <div class="faq-icon"> <i class="fa-solid fa-angle-down fa-beat fa-lg"></i></div>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We specialize in Israeli doors, Turkish doors, sliding doors, double doors, security
+                                doors, wooden doors, and glass doors — for both residential and commercial properties.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Do you offer same-day installation?</span>
+                            <div class="faq-icon"> <i class="fa-solid fa-angle-down fa-beat fa-lg"></i></div>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, depending on availability and your location. Contact us to confirm if same-day
+                                installation is available in your area.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What areas do you currently serve?</span>
+                            <div class="faq-icon"> <i class="fa-solid fa-angle-down fa-beat fa-lg"></i></div>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We currently serve customers in Abuja, Niger, Kaduna. We are expanding
+                                rapidly, reach out to schedule a date and confirm availability in your exact location.
+                            </p>
+                        </div>
+                    </div>
+                    
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Do you provide a warranty on your doors?</span>
+                            <div class="faq-icon"> <i class="fa-solid fa-angle-down fa-beat fa-lg"></i></div>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, all our doors come with a manufacturer's warranty. Installation work is also covered
+                                by our service guarantee. Terms vary by product — ask our team for details.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Can I get a free quote before committing?</span>
+                            <div class="faq-icon"> <i class="fa-solid fa-angle-down fa-beat fa-lg"></i></div>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Absolutely. Reach out to us via phone +234 07033797079, +234 08152837992 or our contact
+                                form and we'll provide a
+                                no-obligation quote based on your requirements.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Do you offer emergency door repair services?</span>
+                            <div class="faq-icon"> <i class="fa-solid fa-angle-down fa-beat fa-lg"></i></div>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, we offer 24-hour emergency services for urgent door repairs and lock replacements.
+                                Call our emergency line anytime.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+            <div class="text-content">
+
+                <h2 class="text-content animate">
+                    Your Security Begins Here.
+
+                    Elegant doors. Trusted locks.
+
+                    Reliable protection
+                    for homes and businesses.
+                </h2>
+            </div>
+            <div class="cta">
+                <a href="get-started.html"><button class="header-btn button hero animate">Get Started<i
+                            class="fa-solid fa-arrow-right-long fa-beat"></i></button>
+                </a>
+
+            </div>
+
+        </section>
+        <section class="final-section-container animate" id="contact-section">
+            <div class="dave-tech animate">
+                <div>
+                    <h1 class=""><i class="fa-solid fa-house-lock"></i>DAVE-TECH</h1>
+                </div>
+                <div>
+                    <p>
+                    <h2>Security Door Solutions</h2>
+                    </p>
+                </div>
+                <p>
+                <h4>professionalism is Key</h4>
+                </p>
+                <div class="socials animate">
+                    <a class="social1" href="mailto:akinyomid1@gmail.com" target="_blank"><i
+                            class="fa-solid fa-envelope"></i></a>
+                    <a class="social2" href="https://wa.me/2347033797079" target="_blank"><i
+                            class="fa-brands fa-whatsapp"></i></a>
+                    <a class="social3" href="tel:+2348152837992" target="_blank"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+
+            <div class="company animate">
+                <div>
+                    <h1>Company</h1>
+                </div>
+                <a href="">
+                    <div class="company-boys">About us</div>
+                </a>
+                <a href="">
+                    <div class="company-boys">FAQ</div>
+                </a>
+                <a href="">
+                    <div class="company-boys">Partner with us</div>
+                </a>
+                <a href="">
+                    <div class="company-boys">Contact us</div>
+                </a>
+            </div>
+
+            <div class="contact animate">
+                <div>
+                    <h1>Contact</h1>
+                </div>
+                <div class="contact-boys"><i class="fa-solid fa-envelope"></i> akinyomid1@gmail.com</div>
+                <div class="contact-boys"><i class="fa-brands fa-whatsapp"></i> +234 07033797079</div>
+                <div class="contact-boys"><i class="fa-solid fa-phone"></i> +234 08152837992</div>
+                <div class="contact-boys"><i class="fa-solid fa-clock"></i> Monday-Saturday:24hrs</div>
+                <div class="contact-boys"><i class="fa-solid fa-location-dot"></i> Adjacent IYA-FEMI <br>Restaurant,
+                    Minna, Niger state</div>
+
+            </div>
+
+            <div class="contact-form animate">
+                <div>
+                    <h2>Send a message</h1>
+                </div>
+                <form action="https://formspree.io/f/xlgvpznz" method="post" target="_blank">
+                    <div class="form-boys1">
+                        <label for="name">Full Name:</label>
+                        <input type="text" name="name" placeholder="john doe" required title="Enter your full name">
+                    </div>
+                    <div class="form-boys2">
+                        <label for="number">Telephone:</label>
+                        <input type="number" name="number" placeholder="phone number +234" required
+                            title="Enter your phone number">
+                    </div>
+                    <div class="form-boys3">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="yourname@gmail.com" title="enter your mail" required>
+                    </div>
+                    <div class="form-boys4">
+                        <label for="service">Service:</label>
+                        <select required title="select a service" name="service">
+                            <option value="">Select service</option>
+                            <option value="door installation">Door installation</option>
+                            <option value="smart locks">Smart locks</option>
+                            <option value="security doors">Security doors</option>
+                            <option value="Repairs and maintenance">Repairs/Maintenance</option>
+                            <option value="Door purchase">Door Purchase</option>
+                        </select>
+                    </div>
+                    <div class="form-boys5">
+                        <textarea name="message" id="" placeholder="send a message"
+                            title="leave us a message"></textarea>
+                    </div>
+                    <div class="final-btn">
+                        <div class="reset">
+                            <button type="reset"><strong>Reset</strong> </button>
+                        </div>
+                        <div class="submit">
+                            <button><strong>Submit</strong></button>
+                        </div>
+
+                    </div>
+
+
+
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer class="animate">
+        <div class="footer1 ">
+            <div>&copy; 2026 DAVE-TECH security door solutions. All rights Reserved.</div>
+            <div>Privacy Policy</div>
+            <div>Terms of Service</div>
+            <p class="final-word">Trusted by Famiies, businesses and professionals across Nigeria.</p>
+        </div>
+
+        <div class="credit animate">
+            Designed & Developed by <strong>Victor Solomon</strong>
+            <div class="credit-link">
+                <a class="credit1" href="victorsolomon2012@gmail.com" target="_blank"><i
+                        class="fa-solid fa-envelope"></i></a>
+                <a class="credit2" href="https://wa.me/2349132489059" target="_blank"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+                <a class="credit3" href="tel:+2349132489059" target="_blank"><i class="fa-solid fa-phone"></i></a>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+    <button class="scroll-top" id="scrollTop">
+        <i class="fa-solid fa-angle-up"></i>
+    </button>
+
+</body>
+
+</html>
