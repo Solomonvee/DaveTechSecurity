@@ -18,17 +18,21 @@
         <div class="header-container">
             <h3 class="logo"><i class="fa-solid fa-house-lock"></i>DAVE-TECH</h3>
             <nav>
-                <ul>
-                    <li><a class="nav-item nav1 " href="index.html"> Home</a></li>
+                <ul id="nav-menu-gs">
+                    <li><a class="nav-item nav1" href="index.html"> Home</a></li>
                     <li><a class="nav-item nav2" href="index.html#faq-section"> Faq</a></li>
-                    <li><a class="nav-item nav3 " href="index.html#contact-section"> contact</a></li>
+                    <li><a class="nav-item nav3" href="index.html#contact-section"> contact</a></li>
                     <li><a class="nav-item nav2" href="about.html"> About</a></li>
 
                 </ul>
             </nav>
-            <a href="get-started.html"><button class="header-btn button active animate">Get Started<i
-                        class="fa-solid fa-arrow-right-long fa-beat"></i></button>
-            </a>
+            <div class="nav-right">
+                <a href="tel:+2348152837992" target="_blank"><button class="header-btn button">Call Now<i
+                            class="fa-solid fa-phone fa-shake"></i></button></a>
+                <button class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
         </div>
     </header>
 
@@ -55,26 +59,26 @@
                     </div>
                     <form action="https://formspree.io/f/xlgvpznz" method="post" target="_blank">
                         <div class="form-boys1-hero">
-                            <label for="name">Full Name:</label>
+                            <label for="name">Full Name *</label>
                             <input type="text" name="name" placeholder="john doe" required title="Enter your full name">
                         </div>
-                        <div class="form-boys2-hero">
-                            <label for="number">Telephone:</label>
-                            <input type="number" name="number" placeholder="phone number +234" required
+                        <div class="form-boys1-hero">
+                            <label for="number">Telephone *</label>
+                            <input type="tel" name="number" placeholder="+234 xxx xxx xxxx" required
                                 title="Enter your phone number">
                         </div>
-                        
-                        <div class="form-boys3-hero">
-                            <label for="email">Email:</label>
-                            <input type="email" name="email" placeholder="yourname@gmail.com" title="enter your mail">
+
+                        <div class="form-boys1-hero">
+                            <label for="email">Email *</label>
+                            <input type="email" name="email" placeholder="yourname@gmail.com" title="enter your mail" required>
                         </div>
-                         <div class="form-boys4-hero">
-                            <label for="names">Property/Company Name:</label>
+                        <div class="form-boys1-hero">
+                            <label for="names">Property/Company Name *</label>
                             <input type="names" name="names" placeholder="property/company name" required
                                 title="Enter the name">
                         </div>
-                        <div class="form-boys5-hero">
-                            <label for="service">Service:</label>
+                        <div class="form-boys1-hero">
+                            <label for="service">Service *</label>
                             <select required title="select a service" name="service">
                                 <option value="">Select service*</option>
                                 <option value="door installation">Door installation</option>
@@ -84,8 +88,8 @@
                                 <option value="Door purchase">Door Purchase</option>
                             </select>
                         </div>
-                           <div class="form-boys5-hero">
-                            <label for="property unit count">Property Unit Count:</label>
+                        <div class="form-boys1-hero">
+                            <label for="property unit count">Property Unit Count *</label>
                             <select required title="property unit count" name="property unit count">
                                 <option value="">property unit count*</option>
                                 <option value="less than 5 unit">Less than 5 unit</option>
@@ -96,18 +100,17 @@
                             </select>
                         </div>
                         <div class="form-boys5-hero">
-                            <textarea name="message" id="" placeholder="send a message"
+                            <textarea name="message" id=""
+                                placeholder="Tell us about about your Project or Service request"
                                 title="leave us a message"></textarea>
                         </div>
-                     
-                        <div class="final-btn-hero">
-                            <div class="reset-hero">
-                                <button type="reset"><strong>Reset</strong> </button>
-                            </div>
-                            <div class="submit-hero">
-                                <button type="submit"><strong>Request Service</strong></button>
-                            </div>
 
+                        <div class="final-btn-hero">
+                            <div class="submit-hero">
+                                <button type="submit">
+                                    <strong>Request Service</strong>
+                                </button>
+                            </div>
                         </div>
 
 
@@ -194,9 +197,7 @@
                 <a href="">
                     <div class="company-boys">Partner with us</div>
                 </a>
-                <a href="">
-                    <div class="company-boys">Contact us</div>
-                </a>
+              
             </div>
 
             <div class="contact animate">
@@ -246,10 +247,10 @@
                             title="leave us a message"></textarea>
                     </div>
                     <div class="final-btn">
-                        <div class="reset">
+                        <div class="refresh">
                             <button type="reset"><strong>Reset</strong> </button>
                         </div>
-                        <div class="submit">
+                        <div class="finish">
                             <button><strong>Submit</strong></button>
                         </div>
 

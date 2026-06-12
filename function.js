@@ -194,3 +194,28 @@ if (aboutText && seeMoreBtn) {
     seeMoreBtn.textContent = aboutText.classList.contains("expanded") ? "See less" : "See more";
   });
 }
+
+
+
+// get started page
+// Get Started page hamburger
+const hamburgerGs = document.getElementById('hamburger');
+const navMenuGs = document.getElementById('nav-menu-gs');
+
+if (hamburgerGs && navMenuGs) {
+  hamburgerGs.addEventListener('click', () => {
+    navMenuGs.classList.toggle('open');
+    const icon = hamburgerGs.querySelector('i');
+    icon.classList.toggle('fa-bars');
+    icon.classList.toggle('fa-xmark');
+  });
+
+  navMenuGs.querySelectorAll('.nav-item').forEach(link => {
+    link.addEventListener('click', () => {
+      navMenuGs.classList.remove('open');
+      const icon = hamburgerGs.querySelector('i');
+      icon.classList.add('fa-bars');
+      icon.classList.remove('fa-xmark');
+    });
+  });
+}
