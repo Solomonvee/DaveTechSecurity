@@ -481,8 +481,16 @@ div img {
         transform: translateX(0);
     }
 }
+  .contact-form {
+    width: 270px;
+  }
 
-
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    width: 100%;
+    max-width: 400px;
+  }
 .contact-form input,
 .contact-form select,
 .contact-form textarea {
@@ -602,6 +610,11 @@ footer {
     color: white;
 
 
+}
+
+.privacy a, .terms a{
+text-decoration: none;
+color: white;
 }
 
 .footer1 {

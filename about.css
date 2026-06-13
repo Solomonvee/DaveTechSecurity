@@ -694,6 +694,11 @@ footer {
   display: flex;
   gap: 60px;
 }
+.privacy a,
+.terms a {
+  color: white;
+  text-decoration: none;
+}
 
 .final-word {
   margin-left: 1px;
@@ -783,7 +788,7 @@ footer {
   }
 
   #nav-menu-about li {
-    width: 60%;
+    width: 70%;
     text-align: center;
     padding: 12px 0;
     border-bottom: 1px solid rgba(231, 221, 221, 0.6);

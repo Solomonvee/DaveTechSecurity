@@ -56,48 +56,6 @@ if (track && dotsContainer) {
   startTimer();
 }
 
-// Second slider
-const slider2Track = document.getElementById("slider2Track");
-if (slider2Track) {
-  const slider2DotsContainer = document.getElementById("slider2Dots");
-  const slider2Counter = document.getElementById("slider2Counter");
-  const slider2Slides = document.querySelectorAll(".slide2");
-  const slider2Total = slider2Slides.length;
-  let slider2Current = 0;
-  let slider2Timer;
-
-  slider2Slides.forEach((_, i) => {
-    const dot = document.createElement("button");
-    dot.className = "slider2-dot" + (i === 0 ? " active" : "");
-    dot.setAttribute("aria-label", "Go to slide " + (i + 1));
-    dot.addEventListener("click", () => { slider2GoTo(i); slider2ResetTimer(); });
-    slider2DotsContainer.appendChild(dot);
-  });
-
-  function slider2UpdateUI() {
-    document.querySelectorAll(".slider2-dot").forEach((d, i) => {
-      d.classList.toggle("active", i === slider2Current);
-    });
-    slider2Counter.textContent = (slider2Current + 1) + " / " + slider2Total;
-  }
-
-  function slider2GoTo(index) {
-    slider2Current = (index + slider2Total) % slider2Total;
-    slider2Track.style.transform = `translateX(-${slider2Current * 100}%)`;
-    slider2UpdateUI();
-  }
-
-  function slider2Next() { slider2GoTo(slider2Current + 1); }
-  function slider2Prev() { slider2GoTo(slider2Current - 1); }
-
-  document.getElementById("slider2Next").addEventListener("click", () => { slider2Next(); slider2ResetTimer(); });
-  document.getElementById("slider2Prev").addEventListener("click", () => { slider2Prev(); slider2ResetTimer(); });
-
-  function slider2StartTimer() { slider2Timer = setInterval(slider2Next, 3000); }
-  function slider2ResetTimer() { clearInterval(slider2Timer); slider2StartTimer(); }
-  slider2StartTimer();
-}
-
 // FAQ
 const questions = document.querySelectorAll(".faq-question");
 if (questions.length) {
@@ -124,7 +82,7 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach(e => {
     if (e.isIntersecting) e.target.classList.add('visible');
   });
-}, { threshold: 0.3 });
+}, { threshold: 0.1 });
 document.querySelectorAll('.animate').forEach(el => observer.observe(el));
 
 // Scroll to top
