@@ -1,3 +1,37 @@
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    line-height:1.2;
+
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 57%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 54%;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 52%;
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -36,7 +70,7 @@ main {
 }
 
 .logo {
-  font-size: 25px;
+  font-size: 2.5rem;
 }
 
 #nav-menu .header-btn {
@@ -70,7 +104,7 @@ h3 {
 .nav-item {
   text-decoration: none;
   color: #863b2b;
-  font-size: 18px;
+  font-size: 1.8rem;
   display: inline-block;
   padding-bottom: 6px;
 }
@@ -88,7 +122,7 @@ h3 {
   border-radius: 10px;
   background-color: #863b2b;
   color: white;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .header-btn:hover {
@@ -137,7 +171,7 @@ a {
 
 
 .line {
-  font-size: 22px;
+  font-size: 2.2rem;
   color: #222;
   line-height: 1.6;
 }
@@ -170,7 +204,7 @@ a {
   margin-left: 15px;
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 15px;
 
 }
 
@@ -206,7 +240,7 @@ div img {
 
 
 .hero-heading {
-  font-size: 50px;
+  font-size: 5rem;
 }
 
 
@@ -220,7 +254,7 @@ div img {
 
   gap: 10px;
   align-items: center;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 .hero {
@@ -274,7 +308,7 @@ div img {
   right: 0;
 
   color: #fff;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: bold;
   padding: 1.5rem 1.2rem 1rem;
   letter-spacing: 0.5px;
@@ -314,7 +348,7 @@ div img {
   border-radius: 50%;
   width: 38px;
   height: 38px;
-  font-size: 18px;
+  font-size: 1.8rem;
   cursor: pointer;
   z-index: 10;
   display: flex;
@@ -347,7 +381,7 @@ div img {
 
 .sales {
   margin-bottom: 20px;
-  font-size: 22px;
+  font-size: 2.5rem;
 }
 
 /* second slider */
@@ -392,7 +426,7 @@ div img {
   right: 0;
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
   color: white;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: bold;
   padding: 20px 12px 10px;
   border-radius: 0 0 10px 10px;
@@ -443,7 +477,7 @@ div img {
   display: flex;
   justify-content: center;
   color: white;
-  font-size: 25px;
+  font-size: 2.5rem;
 }
 
 
@@ -523,7 +557,7 @@ div img {
   display: flex;
   justify-content: center;
   color: #863b2b;
-  font-size: 25px;
+  font-size: 2.5rem;
 }
 
 
@@ -591,7 +625,6 @@ div img {
   flex-direction: column;
   background-color: rgba(168, 84, 68, 0.8);
   padding: 20px;
-
   margin-top: 50px;
   margin-bottom: 40px;
 }
@@ -754,18 +787,18 @@ div img {
 
 .faq-header {
   text-align: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 25px;
 }
 
 .faq-header h2 {
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 700;
   color: #863b2b;
   margin-bottom: 10px;
 }
 
 .faq-header p {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #666;
 }
 
@@ -831,7 +864,7 @@ div img {
 }
 
 .faq-question span {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 600;
   color: #863b2b;
   transition: color 0.2s;
@@ -842,7 +875,7 @@ div img {
 }
 
 .faq-icon {
-  font-size: 15px;
+  font-size: 1.5rem;
   color: #999;
   transition: transform 0.3s ease;
   flex-shrink: 0;
@@ -863,12 +896,12 @@ div img {
 
 .faq-answer.open {
   padding-top: 15px;
-  padding-bottom: 75px;
+  padding-bottom: 60px;
 
 }
 
 .faq-answer p {
-  font-size: 15px;
+  font-size: 1.5rem;
   color: #1a1a1a;
   line-height: 1.75;
 }
@@ -891,9 +924,12 @@ div img {
   gap: 8px;
 
 }
+.dave-tech-h4{
+  font-size: 1.6rem;
+}
 
 .socials {
-  font-size: 22px;
+  font-size: 2.2rem;
   display: flex;
   gap: 15px;
 }
@@ -940,7 +976,7 @@ div img {
 }
 
 .company-boys {
-  font-size: 20px;
+  font-size: 2rem;
   cursor: pointer;
 }
 
@@ -978,7 +1014,7 @@ div img {
 }
 
 .contact-boys {
-  font-size: 18px;
+  font-size: 1.8rem;
 
 }
 
@@ -1008,7 +1044,11 @@ div img {
     transform: translateX(0);
   }
 }
-
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
 .contact-form input,
 .contact-form select,
@@ -1017,15 +1057,13 @@ div img {
   padding: 10px 14px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 1.4rem;
   outline: none;
   margin-top: 4px;
 }
 
-
-
 .contact-form label {
-  font-size: 15px;
+  font-size: 1.5rem;
   color: white;
 }
 
@@ -1081,7 +1119,7 @@ div img {
   cursor: pointer;
   background-color: white;
   color: #863b2b;
-  font-size: 15px;
+  font-size: 1.5rem;
   transition: transform 0.2s, box-shadow 0.2s;
 
 }
@@ -1093,7 +1131,7 @@ div img {
   cursor: pointer;
   background-color: white;
   color: #863b2b;
-  font-size: 15px;
+  font-size: 1.5rem;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -1132,7 +1170,8 @@ footer {
 .footer1 {
 
   display: flex;
-  gap: 60px;
+  gap: 70px;
+  font-size: 1.5rem;
 }
 
 .privacy a,
@@ -1149,12 +1188,13 @@ footer {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+   font-size: 1.5rem;
 }
 
 .credit-link {
   display: flex;
   gap: 15px;
-  font-size: 22px;
+  font-size: 2.2rem;
 
 }
 
@@ -1213,7 +1253,7 @@ footer {
   border-radius: 50%;
   width: 45px;
   height: 45px;
-  font-size: 18px;
+  font-size: 1.8rem;
   cursor: pointer;
   display: none;
   align-items: center;
@@ -1242,7 +1282,7 @@ footer {
   display: none;
   background: none;
   border: none;
-  font-size: 24px;
+  font-size: 2.4rem;
   color: #863b2b;
   cursor: pointer;
 }
@@ -1257,12 +1297,12 @@ footer {
 
 
   .logo {
-    font-size: 21px;
+    font-size: 2.3rem;
   }
 
   .hamburger {
     display: block;
-    font-size: 21px;
+    font-size: 2.3rem;
   }
 
   #nav-menu .header-btn {
@@ -1293,7 +1333,7 @@ footer {
     text-align: center;
     padding: 12px 0;
     border-bottom: 1px solid rgba(231, 221, 221, 0.6);
-    font-size: 10px;
+    font-size: 1rem;
   }
 
   nav ul li:last-child {
@@ -1301,7 +1341,7 @@ footer {
   }
 
   .nav-item {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 
   /* hide the header Get Started button, nav has links already */
@@ -1348,18 +1388,18 @@ footer {
 
   .hero-heading {
     text-align: center;
-    font-size: 35px;
+    font-size: 3.5rem;
     margin-top: -30px;
   }
 
   .line {
     text-align: center;
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 500;
   }
 
   .items {
-    font-size: 18px;
+    font-size: 1.8rem;
 
 
   }
@@ -1531,7 +1571,7 @@ footer {
     text-align: center;
     padding: 0 16px;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 2rem;
   }
 
   .cta {
@@ -1677,6 +1717,7 @@ footer {
 
   .faq-header {
     text-align: center;
+    margin-bottom: 40px;
   }
 
   .faq-question {
@@ -1687,7 +1728,7 @@ footer {
     text-align: center;
     padding: 0 16px;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 2rem;
   }
 
   .cta {
@@ -1824,11 +1865,11 @@ footer {
 
 
     .section-header h2 {
-      font-size: 30px;
+      font-size: 3rem;
     }
 
     .third-section-header h1 {
-      font-size: 40px;
+      font-size: 4rem;
     }
 
   }
@@ -1856,7 +1897,7 @@ footer {
 @media(max-width:420px) {
   .faq-answer.open {
     padding-top: 15px;
-    padding-bottom: 130px;
+    padding-bottom: 90px;
 
   }
 }
